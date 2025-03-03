@@ -37,7 +37,7 @@ function App() {
         <h1 className='text-center text-black py-1 mb-5'>PassWord Generator</h1>
         <div className='flex shadow rounded-lg overflow-hidden '>
           <input type="text" value={password} readOnly className='w-full  py-1 px-3 outline-none bg-white text-black rounded-b-sm'ref={passGenRef} placeholder='password'/>
-          <button className='bg-blue-800 text-white px-3  shrink-0 outline-none' onClick={copypasswordToclipboard}>Copy</button>
+          <button className='bg-blue-800 text-white px-3  shrink-0 outline-none hover:cursor-pointer' onClick={copypasswordToclipboard}>Copy</button>
         </div>
         <div className='flex text-sm gap-x-3 mt-5'>
           <div className='flex items-center gap-x-1'>
